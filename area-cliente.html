@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azkoyen Vending</title>
+    <style>
+        * {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .container-top {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            margin: auto;
+        }
+
+        .logo img {
+            width: 100px;
+        }
+
+        .icons-top {
+            margin: auto;
+        }
+
+        .icons-top img {
+            width: 30px;
+        }
+        .carrosel{
+            text-align: center;
+        }
+         .carrosel img{
+             width: 400px;
+         }
+        .conatiner-corpo {
+            display: flex;
+            flex-wrap: wrap;
+            width: 300px;
+            margin: 50px auto;
+        }
+
+        .conatiner-corpo img {
+            width: 30px;
+        }
+
+        .recarga {
+            box-shadow: 2px 2px 2px black;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.795);
+            padding: 10px;
+            display: flex;
+            margin: 5px auto;
+            align-items: center;
+        }
+          .recarga a{
+            color: black;
+            text-decoration: none;
+          }
+        .container-produtos {
+            display: flex;
+            justify-content: center;
+        }
+
+        .produtos {
+            padding: 20px;
+        }
+
+        .produtos img {
+            width: 200px;
+            border-radius: 10px;
+        }
+        .sobre{
+            width: 300px;
+            margin: 100px auto;
+        }
+        .roleta{
+            position: fixed;
+            right: 0;
+            bottom: 80px;
+        }
+        .roleta img{
+            width: 70px;
+        }
+        .container-flutuante{
+            width: 100%;
+            background-color: white;
+            position: fixed;
+            bottom: 0;
+        }
+        .area-flutuadora{
+            display: flex;
+        }
+        .flutua{
+            margin: auto;
+            text-align: center;
+        }
+        .flutua img{
+            width: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-top">
+            <div class="logo">
+                <a href="">
+                    <img src="images/logo/logo-azkoyen.png" alt="">
+                </a>
+            </div>
+            <div class="icons-top">
+                <a href="" target="_blank" title=""><img src="images/icons/brasil-icon.png" alt=""></a>
+                <a href="" target="_blank" title=""><img src="images/icons/telegram-icon.png" alt=""></a>
+                <a href="" target="_blank" title=""><img src="images/icons/suporte-icon.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="carrosel">
+            <img src="images/carossel/img-01.png" alt="">
+        </div>
+        <div class="conatiner-corpo">
+            <div class="recarga">
+                <img src="images/icons/recarregar-icon.png" alt="">
+                <p>
+                    <a href="">Recarga</a>
+                </p>
+            </div>
+            <div class="recarga">
+                <img src="images/icons/convite-icon.png" alt="">
+                <p>
+                    <a href="">Convidar amigos</a>
+                </p>
+            </div>
+            <div class="recarga">
+                <img src="images/icons/retirada-icon.png" alt="">
+                <p>
+                    <a href="">Retirada</a>
+                </p>
+            </div>
+            <div class="recarga">
+                <img src="images/icons/baixar-app-icon.png" alt="">
+                <p>
+                    <a href="">Baixar aplicativo</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="container-produtos">
+            <div class="produtos">
+                <a href="">
+                    <img src="images/quadro-produtos/produtos-comuns.png" alt="">
+                </a>
+            </div>
+            <div class="produtos">
+                <a href="">
+                    <img src="images/quadro-produtos/produtos-vip.png" alt="">
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="sobre">
+            <h2>
+                Sobre nós
+            </h2>
+            <p>
+                A Azkoyen é uma empresa global especializada em projetar, fabricar e comercializar máquinas de café e
+                vending, bem como em tecnologias inovadoras para sistemas de pagamento automatizados e controle de
+                segurança. Com mais de 75 anos de experiência, a Azkoyen se concentra em criar soluções de automação
+                intuitivas e atraentes para simplificar os desafios diários. A empresa é reconhecida por seu compromisso
+                com design, inovação e sustentabilidade.
+            </p>
+        </div>
+        <div class="roleta">
+            <img src="images/icons/roleta-icon.png" alt="">
+        </div>
+        <div class="container-flutuante">
+            <div class="area-flutuadora">
+                <div class="flutua">
+                    <img src="images/icons/inicio-icon.png" alt="">
+                    <p>
+                        Inicio
+                    </p>
+                </div>
+                <div class="flutua">
+                    <img src="images/icons/receita-icon.png" alt="">
+                   <p>
+                    Receita
+                   </p>
+                </div>
+                <div class="flutua">
+                    <img src="images/icons/compartilhar-icon.png" alt="">
+                    <p>
+                        Compartilhar
+                    </p>
+                </div>
+                <div class="flutua">
+                    <img src="images/icons/perfil-icon.png" alt="">
+                    <p>
+                        Perfil
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+    </script>
+</body>
+
+</html>
